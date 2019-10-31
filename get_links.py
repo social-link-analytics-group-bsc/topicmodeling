@@ -1,6 +1,6 @@
 # coding=utf-8
 """
-@review: Fabio Curi
+@author: Fabio Curi
 Date: 21.11.2018
 
 Script that gathers links from Registro Central and Coordinadora Catalana de Fundacions.
