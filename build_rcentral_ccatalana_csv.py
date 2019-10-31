@@ -137,4 +137,4 @@ if '__main__' == __name__:
                 dic[el].append(np.nan)
 
     CCFdata = pd.DataFrame.from_dict(dic, orient='index').transpose()
-    CCFdata.to_csv(cwd + '/Data/CCFdata.csv', encoding='utf-8', index=False)
+    CCFdata.to_csv(cwd + '/data/CCFdata.csv', encoding='utf-8', index=False)
