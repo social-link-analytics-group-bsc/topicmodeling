@@ -23,7 +23,7 @@ if '__main__' == __name__:
     dataframe_in_catalan.to_excel(writer)
     writer.save()
 
-    ######## Manually translate in Apertium ! https://www.apertium.org
+    ######## Manually translate in Apertium into Spanish ! https://www.apertium.org
 
     dataframe = pd.read_excel('./data/catalan_dataframe_translated.xlsx', encoding='utf-8')
 
@@ -46,3 +46,5 @@ if '__main__' == __name__:
     writer = pd.ExcelWriter('./data/spanish_dataframe.xlsx')
     final_database.to_excel(writer, index=False)
     writer.save()
+
+######## Manually translate in Apertium into English ! https://www.apertium.org
