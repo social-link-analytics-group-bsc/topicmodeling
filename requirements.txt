@@ -1,0 +1,4 @@
+codecs
+spacy
+selenium
+nltk
